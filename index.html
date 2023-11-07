@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results Summary Component</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://kit.fontawesome.com/a32340bfe3.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <div id="bluebox">
+        <p class="head1">Your Result</p>
+        <div id="parentCircle">
+            <div id="circle">
+                <p class="number">76</p>
+                <p class="of">of 100</p>
+            </div>
+        </div>
+        <div id="head2">
+            <p>Great</p>
+        </div>
+        <div id="para">
+            <p>You scared higher than 65% of the people who have taken these tests.</p>
+        </div>
+    </div>
+
+    <div id="whitebox">
+        <div>
+            <p class="head">Summary</p>
+        </div>
+
+        <!-- Reaction -->
+        <div class="list-box" style="background-color: rgba(242, 231, 231,0.4);">
+            <p><i class="fa-solid fa-bolt" style="padding-top: 15px; color: rgb(230, 62, 62);"></i>
+                <span class="spanpara-hs" style="color: rgb(230, 62, 62);margin:0; position: relative; left: -20px;">Reaction</span>  
+                <span  style="padding-top: 15px;">80/100</span>
+            </p>
+        </div>
+
+        <!-- Memory -->
+        <div class="list-box" style="background-color: rgba(249, 249, 226,0.4);">
+            <p><i class="fa-solid fa-brain" style="padding-top: 15px; color:rgb(193, 193, 25);"></i>
+                <span class="spanpara-hs" style="color: rgb(193, 193, 25);">Memory</span> 
+                <span style="padding-top: 15px;">92/100</span> 
+            </p>
+        </div>
+
+        <!-- Verbal -->
+        <div class="list-box" style="background-color: rgba(205, 234, 205,0.4);">
+            <p><i class="fa-solid fa-comment-dots" style="padding-top: 15px;color: green"></i>
+                <span class="spanpara" style="padding: 16px; color: green" >Verbal</span>
+                <span style="padding-top: 15px;">61/100</span> 
+            </p>
+        </div>
+
+        <!-- Visual -->
+        <div class="list-box" style="background-color: rgba(235, 222, 248,0.4);">
+            <p><i class="fa-solid fa-eye" style="padding-top: 15px;color: rgb(105, 10, 193)"></i>
+                <span class="spanpara" style="padding: 16px; color: rgb(105, 10, 193);" >Visual</span> 
+                <span style="padding-top: 15px;">72/100</span> 
+            </p>
+        </div>
+        
+        <div id="btndiv">
+            <button>Continue</button>
+        </div>
+    </div>
+
+
+
+    
+</body>
+</html>
